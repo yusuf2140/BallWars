@@ -1,0 +1,16 @@
+{
+  "lobi_baslik": "Ball Wars - Giriş Ekranı",
+  "lbl_ad": " Kullanıcı Adı:",
+  "lbl_ip": " Sunucu IP (Client için):",
+  "lbl_port": " Port:",
+  "lbl_dil": " Dil / Language:",
+  "btn_host": "Oda Kur (Host)",
+  "btn_join": "Odaya Katıl (Client)",
+  "btn_yolla": "YOLLA!",
+  "sira": "SIRA: ",
+  "guc": "GÜÇ: ",
+  "durum_bagli": "AĞ DURUMU: BAĞLANDI",
+  "durum_bekliyor": "AĞ DURUMU: BAĞLANTI BEKLENİYOR...",
+  "mac_bitti": "MAÇ BİTTİ! ",
+  "kazandi": " Kazandı!"
+}

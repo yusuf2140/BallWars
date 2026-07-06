@@ -1,0 +1,16 @@
+{
+  "lobi_baslik": "Ball Wars - Login Screen",
+  "lbl_ad": " Username:",
+  "lbl_ip": " Server IP (For Client):",
+  "lbl_port": " Port:",
+  "lbl_dil": " Dil / Language:",
+  "btn_host": "Create Room (Host)",
+  "btn_join": "Join Room (Client)",
+  "btn_yolla": "FIRE!",
+  "sira": "TURN: ",
+  "guc": "POWER: ",
+  "durum_bagli": "NETWORK: CONNECTED",
+  "durum_bekliyor": "NETWORK: WAITING FOR PLAYER...",
+  "mac_bitti": "GAME OVER! ",
+  "kazandi": " Won!"
+}
