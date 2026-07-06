@@ -8,7 +8,7 @@ public class Player {
 
     public Player(int id, double pang, String isim, Ball top) {
         this.id = id;
-        this.pang = pang
+        this.pang = pang;
         this.isim = isim;
         this.top = top;
     }
