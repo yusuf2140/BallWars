@@ -3,7 +3,7 @@ package com.yusuf.ballwars;
 import java.awt.*;
 
 public class UI {
-    public void ciz(Graphics2D g2d, int sira, double guc, boolean bagliMi, boolean hostMu, String p1Isim, String p2Isim) {
+    public void ciz(Graphics2D g2d, int sira, double guc, double aci, boolean bagliMi, boolean hostMu, String p1Isim, String p2Isim) {
         g2d.setColor(Color.WHITE);
         g2d.setFont(new Font("Arial", Font.BOLD, 14));
         
