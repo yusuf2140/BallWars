@@ -10,6 +10,7 @@ public class UI {
         String aktifOyuncu = (sira == 1) ? p1Isim : p2Isim;
         g2d.drawString("TURN: " + aktifOyuncu.toUpperCase(), 20, 30);
         g2d.drawString("POWER: " + (int)(guc * 10) + " / 150", 20, 55);
+        g2d.drawString("ANGLE: " + (double)(aci), 20, 80);
         
         g2d.setFont(new Font("Arial", Font.PLAIN, 12));
         if (bagliMi) {
