@@ -14,18 +14,23 @@ if %ERRORLEVEL% NEQ 0 (
     echo.
     set /p choice="Enter your choice (Y/N): "
     
+    REM Trim whitespace and convert to uppercase
+    for /f "tokens=*" %%A in ('echo %choice%') do set choice=%%A
+    
     if /i "%choice%"=="N" (
         echo Opening Maven website...
         start https://maven.apache.org/download.cgi
         exit /b 1
     ) else if /i "%choice%"=="Y" (
         echo Continuing without Maven...
+        goto :continue
     ) else (
         echo Invalid choice. Please enter Y or N.
         exit /b 1
     )
 )
 
+:continue
 REM Run Maven build if Maven is available
 where mvn >nul 2>nul
 if %ERRORLEVEL% EQU 0 (
